@@ -6,6 +6,10 @@ Check a batch of equipment readings against your own type rules and service inte
 
 No account, backend, paid API, analytics or browser storage. The app reads CSV/TSV files locally or accepts pasted spreadsheet rows. Your inputs stay in the current tab and are not saved when you leave.
 
+## Recurring work in Google Sheets
+
+For saved rules and repeated reading updates inside a spreadsheet, use the free [editable Sheets workbook and setup guide](sheets/README.md). Its input layout, formulas and limits are separate from the browser batch checker. Import the provided XLSX into your own Google Sheets; it contains only fictional records.
+
 ## Run
 
 Requirements: Python 3 for the local static server; a modern browser with JavaScript modules and BigInt. Node.js 22 or newer is recommended for the built-in test runner; there are no npm dependencies.
