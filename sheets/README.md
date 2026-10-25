@@ -33,7 +33,7 @@ This workbook supports one meter-based service interval per type. It has no cale
 
 ## Checks
 
-The author checked 44 scenarios in the local workbook engine, then checked 23 additional case rows in native Google Sheets, the six example outcomes, the last supported equipment row and recalculation after changing an interval and warning window. A separate native copy was tested with an ordinary two-row clipboard paste: leading-zero IDs remained text, readings became numbers, the unit dropdown remained and statuses recalculated. Temporary author test records were removed from the template.
+The author checked 44 scenarios in the local workbook engine, then checked 23 additional case rows in native Google Sheets, the six example outcomes, the last supported equipment row and recalculation after changing an interval and warning window. An ordinary two-row native clipboard paste was checked: leading-zero IDs remained text, readings became numbers, the unit dropdown remained and statuses recalculated. Temporary author test records were removed from the template.
 
 These checks establish the described behaviour in the tested environment. They do not establish a customer's workflow preference, engineering interval correctness or a paid delivery.
 
